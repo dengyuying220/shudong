@@ -5,9 +5,9 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-
+    
     // 登录
-    wx.login({
+    /* wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
@@ -31,9 +31,13 @@ App({
           })
         }
       }
-    })
+    }) */
+  },
+  onShow: function() {
+    
   },
   globalData: {
-    userInfo: null
+    userInfo: null,     //微信用户信息
+    user: null          //后台用户信息
   }
 })

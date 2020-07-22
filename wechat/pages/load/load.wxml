@@ -1,7 +1,8 @@
-<!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
-<view></view>
-<open-data type="userAvatarUrl"></open-data>
-<open-data type="userNickName"></open-data>
-<!-- 需要使用 button 来授权登录 -->
-<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
-<view wx:else>请升级微信版本</view>
+<view class="container" style="padding: 200rpx 0;">
+  <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"
+    type="primary" size="mini" style="width:50vw;">授权登录</button>
+  <view wx:else>请升级微信版本</view>
+  <view class="diver_line"></view>
+  <view class="notice">\t\t欢迎使用小程序，我们需要一些您的公开信息，包括微信昵称、头像等。请放心，我们会妥善保管您的信息。</view>
+</view>
+

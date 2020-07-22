@@ -1,1 +1,13 @@
-/* pages/load/load.wxss */
+.notice {
+  color: #8a8a8a;
+  width: 72vw;
+  margin: 20rpx auto;
+  font-size: 32rpx;
+  font-weight: 10rpx;
+  text-align: center;
+}
+.diver_line{
+  width: 68vw;
+  margin: 60rpx auto 0;
+  border-bottom: 1rpx solid #8a8a8a;
+}
