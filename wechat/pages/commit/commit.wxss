@@ -1,1 +1,9 @@
-/* pages/commit/commit.wxss */
+page {
+  background-color: #efefef;
+}
+.text_input {
+  width: 100vw;
+  height: 600rpx;
+  background-color: #fff;
+  font-size: 38rpx;
+}

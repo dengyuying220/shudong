@@ -1,3 +1,9 @@
 <view class="container">
-
+  <!-- <view class="enroll_form"> -->
+    <form class="enroll_form">
+      <input placeholder="用户名/邮箱/手机号" type="text" placeholder-class="plhd" bindinput="name_input"/>
+      <input placeholder="登录密码" type="password" placeholder-class="plhd" bindinput="pass_input"/>
+      <button class="button_enroll" bindtap="SignIn">登录</button>
+      <view class="goLogin" bindtap="goSignUp"><text>还没有账号，点我注册</text></view>
+    </form>
 </view>

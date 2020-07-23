@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    username:"",
+    telphone: "",
+    password: "",
+    confirm_password: "",
   },
 
   /**
@@ -64,5 +67,15 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  name_input: function (e) {
+    this.setData({
+      username: e.detail.value
+    })
+  },
+  goSignUp: function () {
+    wx.redirectTo({
+      url: '/pages/enroll/enroll',
+    })
+  },
 })

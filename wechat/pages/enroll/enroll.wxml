@@ -1,12 +1,12 @@
 <view class="container">
   <!-- <view class="enroll_form"> -->
     <form class="enroll_form">
-      <input placeholder="用户名" type="text" placeholder-class="plhd"></input>
-      <input placeholder="手机号" type="number" placeholder-class="plhd"></input>
-      <input placeholder="登录密码" type="password" placeholder-class="plhd"></input>
-      <input placeholder="确认密码" type="password" placeholder-class="plhd"></input>
-      <button class="button_enroll">注册</button>
-      <view class="goLogin"><text>已有账号，点我登录</text></view>
+      <input placeholder="用户名" type="text" placeholder-class="plhd" bindinput="name_input"/>
+      <input placeholder="手机号" type="number" placeholder-class="plhd" bindinput="tel_input"/>
+      <input placeholder="登录密码" type="password" placeholder-class="plhd" bindinput="pass_input"/>
+      <input placeholder="确认密码" type="password" placeholder-class="plhd" bindinput="conpass_input"/>
+      <button class="button_enroll" bindtap="SignUp">注册</button>
+      <view class="goLogin" bindtap="goSignIn"><text>已有账号，点我登录</text></view>
     </form>
   
   

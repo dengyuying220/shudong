@@ -7,3 +7,40 @@
   justify-content: space-between;
   box-sizing: border-box;
 } 
+.enroll_form {
+  width: 92vw;
+  margin-top: 60rpx;
+}
+.enroll_form input {
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  height: 100rpx;
+  color: #000;
+  box-sizing: content-box;
+}
+.plhd {
+  color: #ccc;
+  padding-left: 20rpx;
+}
+.button_enroll {
+  width: 92vw !important;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #fff;
+  display: block;
+  background-color: #f76968;
+  font-size: 32rpx;
+  font-weight: 32rpx;
+  padding: 0;
+  margin: 100rpx 0 0 0 !important;
+}
+.goLogin {
+  width: auto;
+  margin-top: 30rpx;
+  color: #000;
+  font-size: 28rpx;
+  font-family: PingFangSC-regular;
+  padding-left: 16rpx;
+}
