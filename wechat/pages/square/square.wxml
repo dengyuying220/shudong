@@ -1,2 +1,9 @@
-<!--pages/square/square.wxml-->
-<text>pages/square/square.wxml</text>
+
+<view class="container">
+<block >
+  <view class="">
+
+  </view>
+</block>
+<include src="/pages/buttom_menu/buttom_menu" />
+</view>

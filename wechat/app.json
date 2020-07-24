@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/square/square",
+    "pages/buttom_menu/buttom_menu",
     "pages/commit/commit",
     "pages/login/login",
     "pages/enroll/enroll",
@@ -7,10 +9,10 @@
     "pages/load/load",
     
    
-    "pages/square/square",
+    
     "pages/mine/mine",
     
-    "pages/buttom_menu/buttom_menu",
+    
     "pages/index/index",
     "pages/logs/logs"
     

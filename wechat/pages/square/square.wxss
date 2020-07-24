@@ -1,1 +1,2 @@
 /* pages/square/square.wxss */
+@import "/pages/buttom_menu/buttom_menu"

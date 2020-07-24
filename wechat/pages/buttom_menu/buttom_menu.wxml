@@ -1,2 +1,5 @@
-<!--pages/buttom_menu/buttom_menu.wxml-->
-<text>pages/buttom_menu/buttom_menu.wxml</text>
+<view class="buttom_menu">
+  <view class="square_bar">广场</view>
+  <image class="add_bar" src="/img/add.png"></image>
+  <view class="square_bar">个人中心</view>
+</view>

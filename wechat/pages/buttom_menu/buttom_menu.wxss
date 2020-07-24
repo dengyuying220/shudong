@@ -1,1 +1,24 @@
-/* pages/buttom_menu/buttom_menu.wxss */
+.buttom_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+.add_bar {
+  width: 120rpx;
+  height: 80rpx;
+  flex: auto;
+}
+.square_bar {
+  text-align: center;
+  flex-grow: 1;
+  width: 50vw;
+  flex: auto;
+}
+/* .mine_bar {
+  text-align: center;
+  flex-grow: 1;
+  width: 50vw;
+} */
