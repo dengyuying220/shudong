@@ -5,7 +5,7 @@ Page({
    * Page initial data
    */
   data: {
-
+    content: "",
   },
 
   /**
@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  textar_input: function (e) {
+    this.setData({
+      content: e.detail.value,
+    });
+    console.log(this.data.content);
   }
 })

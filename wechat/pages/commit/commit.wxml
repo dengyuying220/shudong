@@ -1,6 +1,7 @@
 <view class="container">
-<view>
-   <textarea class="text_input" placeholder="发条树洞吧~" placeholder-style="color: #888;"/>
-</view>
-<button class="button_enroll" bindtap="SignIn">登录</button>
+
+   <textarea class="text_input" placeholder="发条树洞吧~" placeholder-style="color: #888;"
+      bindinput="textar_input"/>
+
+<button class="button_enroll" bindtap="SignIn">发送</button>
 </view>

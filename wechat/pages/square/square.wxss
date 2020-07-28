@@ -1,2 +1,20 @@
 /* pages/square/square.wxss */
-@import "/pages/buttom_menu/buttom_menu"
+@import "/pages/buttom_menu/buttom_menu";
+page {
+  background-color: #efefef;
+}
+
+.sd_detail {
+  padding-top: 30px;
+  width: 100vw;
+  background-color: #fff;
+  
+}
+.sd_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.sd_info_icon {
+
+}
