@@ -3,7 +3,10 @@
 page {
   background-color: #efefef;
 }
-
+.scbg {
+  background-color: #efefef;
+  height: 91vh;
+}
 .sd_detail {
   padding-top: 30px;
   width: 100vw;

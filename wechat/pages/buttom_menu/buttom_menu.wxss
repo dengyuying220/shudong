@@ -5,7 +5,9 @@
   position: fixed;
   bottom: 0;
   width: 100vw;
+  height: 9vh;
   color: #f2f2f2;
+  background-color: #fff;
 }
 .add_bar {
   width: 120rpx;
