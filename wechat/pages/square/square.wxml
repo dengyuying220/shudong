@@ -1,22 +1,22 @@
 
 <view class="container">
   <scroll-view class="scbg" scroll-y="true">
-    <block > 
+    <block wx:for="{{sd_list}}"> 
       <view class="sd_detail">
         <view class="sd_info">
-          <image src="/img/add.png" class="sd_info_icon"></image>
+          <image src="{{item.icon}}" class="sd_info_icon"></image>
           <view class="sd_info_r">
-            <view class="nickname">哆啦A梦</view>
-            <view class="time">2019-03-19 21：41：52</view>
+            <view class="nickname">{{item.nickname}}</view>
+            <view class="time">{{item.time}}</view>
           </view>
         </view>
-        <view class="sd_text">
-          <text class="sd_text">但是房价快速的建立快速的概率是哪个老师交给老师家公司管理时间过了时间过来看</text>
+        <view class="sd_content">
+          <text class="sd_text">{{item.content}}</text>
         </view>
         <view class="diver_line"></view>
         <view class="sd_like">
           <image src="/img/like.png" class="sd_like_icon"></image>
-          <text>23</text>
+          <text class="sd_like_count">{{item.likes}}</text>
         </view>
       </view>
     </block>
