@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/mine/mine",
     "pages/square/square",
     "pages/buttom_menu/buttom_menu",
     "pages/commit/commit",
@@ -10,7 +11,7 @@
     
    
     
-    "pages/mine/mine",
+
     
     
     "pages/index/index",

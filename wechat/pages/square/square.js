@@ -7,7 +7,7 @@ Page({
   data: {
     sd_list: [
       {
-        icon:"/img/add.png",
+        icon:"/img/132.jpg",
         nickname: "哆啦A梦",
         time: "2019-03-19 21:41:52",
         content: "但是房价快速的建立快速的概率是哪个老师交给老师家公司管理时间过了时间过来看",

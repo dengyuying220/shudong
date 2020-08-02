@@ -10,10 +10,10 @@ page {
 }
 .sd_detail {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
   background-color: #fff;
-  
+  margin-bottom: 30rpx;
 }
 .sd_info {
   display: flex;
@@ -23,8 +23,8 @@ page {
   align-items: center;
 }
 .sd_info_icon {
-  width: 150rpx;
-  height: 150rpx;
+  width: 130rpx;
+  height: 130rpx;
 }
 .sd_info_r {
   display: flex;
@@ -51,7 +51,7 @@ page {
   font-size: 29rpx;
 }
  .diver_line {
-   border: 5rpx solid #bbb;
+   border-bottom: 5rpx solid #bbb;
  }
 .sd_like {
   width: 100vw;
@@ -63,7 +63,7 @@ page {
 .sd_like .sd_like_icon {
   width: 50rpx;
   height: 50rpx;
-  margin-right: 20rpx;
+  margin: 0 20rpx 0 20rpx;
 }
 .sd_like .sd_like_count {
   line-height: 52rpx;

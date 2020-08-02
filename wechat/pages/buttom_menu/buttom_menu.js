@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  goSquare: function () {
+    wx.navigateTo({
+      url: '/pages/square/square',
+    })
   }
 })

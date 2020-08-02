@@ -1,2 +1,26 @@
-<!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+
+<view class="container">
+  <scroll-view class="scbg" scroll-y="true">
+    <view class="mine_info">
+      <view class="icon_frame">
+        <image class="icon" src="/img/132.jpg"></image>
+      </view>
+      <view class="nickname"><!-- {{item.nickname}} -->用户名</view>
+      <view class="diver_line"></view>
+    </view>
+    <block wx:for="{{sd_list}}"> 
+      <view class="sd_detail">
+        <view class="sd_content">
+          <text class="sd_text">{{item.content}}</text>
+        </view>
+        <view class="diver_line"></view>
+        <view class="sd_like">
+          <image src="/img/like.png" class="sd_like_icon"></image>
+          <text class="sd_like_count">{{item.likes}}</text>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+
+<include src="/pages/buttom_menu/buttom_menu" />
+</view>
